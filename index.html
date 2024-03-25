@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo das primeiras aulas</title>
+</head>
+
+<body>
+
+    <h1 id="inicio">Introdução ao Curso Formação HTML Web Developer</h1>
+    <p>
+        Este site oferece um resumo das primeiras aulas do curso "Formação HTML Web Developer" da Digital Innovation One
+        (DIO), ministrado pelo professor Diogo Medeiros Mainardes. Criado como um exercício, o site proporciona uma
+        visão geral dos conceitos fundamentais abordados nas lições iniciais do curso. Os visitantes encontrarão
+        informações concisas sobre marcação de texto, elementos estruturais, formatação de links e imagens, entre outros
+        tópicos importantes. No entanto, é importante destacar que este site é apenas um resumo e não substitui a
+        experiência completa oferecida pelo curso completo da DIO. Para uma aprendizagem abrangente e aprofundada, é
+        recomendado se inscrever no curso completo.
+    </p>
+    <hr>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#client-server">Client x Server</a></li>
+
+        <ul>
+            <li><a href="#computadores">Primeiros Computadores</a></li>
+            <li><a href="#internet">Internet - Como surgiu</a></li>
+            <li><a href="#nomes">Grandes nomes envolvidos</a></li>
+        </ul>
+
+        <li><a href="#client">Client</a></li>
+
+        <ul>
+            <li><a href="#navegadores">Navegadores</a></li>
+            <li><a href="#aplicacoes">Aplicações Web</a></li>
+            <li><a href="#dispositivos">Dispositivos móveis</a></li>
+        </ul>
+
+        <li><a href="#server">Server</a></li>
+        <ul>
+            <li><a href="#hardware-software">Hardware e Software em servidores</a></li>
+            <li><a href="#tipos-servers">Tipos de Servers</a></li>
+            <li><a href="#hospedagem">Hospedagem de Sites</a></li>
+        </ul>
+
+        <li><a href="#linguagem">Linguagem de Programação</a></li>
+        <ul>
+            <li><a href="#server-side">Linguagem Server-side</a></li>
+            <li><a href="#client-side">Linguagem Client Side</a></li>
+            <li><a href="#html">Html, linguagem ou não?</a></li>
+        </ul>
+
+        <li><a href="#videos-artigos">Vídeos e Artigos</a></li>
+    </ul>
+
+    <h2 id="client-server">Entendendo comunicação Client x Server</h2>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+
+    <h3 id="computadores">Primeiros Computadores</h3>
+
+    <p>
+    <ul>
+        <li>
+            <strong>1ª Geração:</strong><br>
+
+            Na primeira geração dos computadores, que se estendeu aproximadamente de 1940 a meados da década de 1950, os
+            computadores eram baseados em válvulas eletrônicas. Exemplos notáveis incluem o ENIAC (1946), usado
+            principalmente para cálculos científicos e militares, o Colossus (1946), desenvolvido durante a Segunda
+            Guerra Mundial para quebrar códigos, e o Harvard Mark I (1944), um dos primeiros computadores
+            eletromecânicos de grande escala. Apesar dos avanços significativos, esses computadores eram grandes,
+            lentos, consumiam muita energia e eram propensos a falhas. No entanto, eles estabeleceram os fundamentos
+            para o desenvolvimento das gerações futuras de computadores.
+
+        </li>
+        <br>
+        <li>
+            <strong>2ª Geração <sup>(1959 a 1965)</sup>:</strong>
+            <br>
+            Na segunda geração dos computadores, que ocorreu entre os anos 1950 e meados da década de 1960, houve uma
+            transição dos componentes baseados em válvulas eletrônicas para transistores. Isso resultou em computadores
+            menores, mais rápidos e mais confiáveis. O uso de circuitos integrados e memórias de estado sólido, como
+            memórias de núcleo magnético, impulsionou a melhoria do desempenho e da confiabilidade dos computadores.
+            Exemplos notáveis incluem o IBM 1401 e o IBM 7090. Essa geração foi crucial para avanços significativos na
+            computação e preparou o terreno para futuras inovações tecnológicas.
+
+        </li>
+        <br>
+        <li>
+            <strong>3ª Geração <sup>(1965 a 1970)</sup></strong>
+            <br>
+            Na terceira geração dos computadores, que ocorreu aproximadamente entre os anos 1960 e meados da década de
+            1970, houve uma mudança significativa para o uso generalizado de circuitos integrados (chips). Isso resultou
+            em computadores ainda menores, mais rápidos e mais eficientes em termos de custos. Com a introdução de
+            microprocessadores e memórias de semicondutores, como substitutas das memórias de núcleo magnético, os
+            computadores tiveram um aumento substancial na capacidade de processamento e armazenamento de dados. Além
+            disso, o surgimento de linguagens de programação de alto nível simplificou o processo de programação e
+            tornou os computadores mais acessíveis para uma gama mais ampla de usuários. Essa geração representou uma
+            época de rápida evolução na tecnologia de computadores, preparando o terreno para os avanços revolucionários
+            que se seguiriam.
+        </li>
+        <br>
+        <li>
+            <strong> 4ª Geração <sup>(a partir de 1971)</sup></strong>
+            <br>
+            A 4ª geração dos computadores, que começou na década de 1970 e continua até os dias atuais, foi marcada pelo
+            desenvolvimento e popularização dos microprocessadores. Esses componentes permitiram a criação de
+            computadores menores, mais poderosos e mais acessíveis. A era também testemunhou o surgimento dos
+            computadores pessoais, interfaces gráficas do usuário e sistemas operacionais de uso geral. Além disso,
+            houve avanços significativos na capacidade de armazenamento e no processamento de dados. A 4ª geração é
+            caracterizada por uma rápida evolução tecnológica, com melhorias contínuas em hardware e software que
+            moldaram a sociedade moderna e transformaram a forma como interagimos com a tecnologia.
+        </li>
+        <br>
+        <li>
+            <strong>5ª Geração</strong>
+            <br>
+            A 5ª geração dos computadores destaca-se pelo desenvolvimento da inteligência artificial (IA) e do
+            processamento paralelo. Essa era visa criar sistemas capazes de emular o pensamento humano e realizar
+            tarefas de forma autônoma, usando técnicas como redes neurais artificiais e aprendizado de máquina. No
+            entanto, algumas fontes questionam se essa é uma "geração" real, devido à ausência de marcos tecnológicos
+            distintos que caracterizaram as gerações anteriores.
+        </li>
+    </ul>
+    </p>
+
+    <h2 id="internet">Internet - Como surgiu</h2>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+    <h3>Telégrafo</h3>
+    <p>
+        O telégrafo foi um dos precursores das comunicações de longa distância e desempenhou um papel significativo na
+        história das telecomunicações. Inventado por Samuel Morse na década de 1830, o telégrafo era um sistema que
+        permitia a transmissão de mensagens codificadas através de fios elétricos usando um código de pontos e traços
+        conhecido como código Morse.
+    </p>
+    <p>
+        O telégrafo revolucionou as comunicações, permitindo o envio de mensagens em questão de segundos ou minutos, em
+        vez de dias ou semanas necessárias para a entrega de correspondência física. Isso teve um impacto enorme no
+        comércio, na indústria e na sociedade em geral, acelerando a disseminação de informações e conectando pessoas em
+        diferentes partes do mundo de maneiras nunca antes vistas.
+    </p>
+    <p>
+        Embora tenha sido eventualmente substituído por tecnologias mais avançadas, como o telefone e, mais tarde, a
+        internet, o telégrafo foi um marco crucial no desenvolvimento das telecomunicações e pavimentou o caminho para a
+        era da comunicação instantânea em que vivemos hoje.
+    </p>
+
+    <h3>TELSTAR</h3>
+    <p>
+        Em 1958, foi lançado o primeiro cabo telefônico transatlântico, conhecido como "TELSTAR", conectando os
+        continentes da América do Norte e Europa. Esse cabo foi um marco nas telecomunicações, pois permitiu a
+        transmissão instantânea de comunicações de voz e dados através do oceano Atlântico, inaugurando uma nova era de
+        comunicação global em tempo real.
+    </p>
+
+    <h3>Durante a Guerra Fria</h3>
+    <p>
+        Durante a Guerra Fria, a internet teve suas raízes na ARPANET, uma rede de comunicação militar desenvolvida
+        pelos Estados Unidos no final da década de 1960. Criada como uma resposta à necessidade de comunicação e troca
+        de informações seguras entre instituições de pesquisa e acadêmicas, a ARPANET foi financiada pela Agência de
+        Projetos de Pesquisa Avançada em Defesa (ARPA), precursora da atual DARPA (Agência de Projetos de Pesquisa
+        Avançada em Defesa).
+    </p>
+    <p>
+        A ARPANET utilizava a comutação de pacotes para enviar e receber dados, permitindo que informações fossem
+        transmitidas de maneira eficiente entre computadores em diferentes locais. Inicialmente, a ARPANET conectava
+        quatro universidades e centros de pesquisa nos Estados Unidos, mas rapidamente se expandiu para incluir mais
+        instituições em todo o país.
+    </p>
+    <p>
+        Durante a Guerra Fria, a ARPANET desempenhou um papel crucial na pesquisa e desenvolvimento de tecnologias de
+        comunicação e computação, fornecendo uma infraestrutura robusta e resiliente para troca de informações entre
+        cientistas, engenheiros e pesquisadores em todo o país. Seu sucesso levou ao desenvolvimento de outras redes de
+        computadores, eventualmente culminando na criação da internet global que conhecemos hoje. Embora a ARPANET tenha
+        sido inicialmente concebida como uma rede militar, seu potencial para promover a colaboração e o
+        compartilhamento de conhecimento acabou levando ao seu uso civil e à disseminação da internet em todo o mundo.
+    </p>
+
+    <h2 id="nomes">Grandes nomes envolvidos</h2>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+    <p>
+        <strong>Grace Murray Hopper</strong>
+    <ul>
+        <li>
+            Marinha dos Estados Unidos
+        </li>
+        <li>
+            Uma das primeiras programadoras do Mark I em 1944
+        </li>
+        <li>
+            Criadora da linguagem de programação de alto nível Flow-Matic (Base do COBOL)
+        </li>
+        <li>
+            Termo "bug" na computação
+        </li>
+    </ul>
+    <br>
+    <strong>Joseph Carl Robnett Licklider</strong>
+    <ul>
+        <li>
+            Recrutado pela DARPA depois de teorizar sobre uma rede "galática" de computadores
+        </li>
+        <li>
+            Plantou a "semente" da comunicação entre dois pontos distintos através do computador.
+        </li>
+    </ul>
+    <br>
+    <strong>Robert E Kahn</strong>
+    <ul>
+        <li>
+            Primeira apresentação pública da ARPANET
+        </li>
+        <li>
+            Apresentou o primeiro e-mail
+        </li>
+        <li>
+            Criador do TCP/IP
+        </li>
+    </ul>
+    <br>
+    <strong>Tim Burners-Lee</strong>
+    <ul>
+        <li>
+            Inventor do WWW
+        </li>
+        <li>
+            Diretor do World Wide Web Consortion (W3C)
+        </li>
+        <li>
+            Diversas homenagens, incluido título de cavaleiro dados pela Rainha Elizabeth II
+        </li>
+        <li>
+            Popularizou o HTTP e o HTML
+        </li>
+    </ul>
+    <br>
+    <strong>Marc Adreessen</strong>
+    <ul>
+        <li>
+            (re)Inventou o navegador. O Netscape Navigator feito a partir do Mosaic.
+        </li>
+        <li>
+            Tornou o navegador "amigável", com recursos gráficos
+        </li>
+        <li>
+            Deteve 90% da internet na época, mas sendo superado pelo Internet Explorer anos mais tarde.
+        </li>
+    </ul>
+    <br>
+    <strong>Bill Gates</strong>
+    <ul>
+        <li>
+            Fundador da Microsoft
+        </li>
+        <li>
+            Equipe da Microsoft criou o Internet Explorer
+        </li>
+        <li>
+            Tornou o computador acessível para todos, e com isso o acesso à internet
+        </li>
+    </ul>
+    <br>
+    <strong>Steve Jobs</strong>
+    <ul>
+        <li>
+            Fundador da Apple
+        </li>
+        <li>
+            Concorrente direta da Microsoft
+        </li>
+        <li>
+            Popularizou o Smartphone que conhecemos hoje através do lançamento do IPhone em 29 de junho de 2007.
+        </li>
+    </ul>
+    </p>
+
+
+    <h2 id="client">Conceito de Client no "linguajar" web</h2>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+    <p>
+
+        Um "cliente" em desenvolvimento web se refere à parte do sistema que é executada no dispositivo do usuário
+        final, como um navegador da web. A interface do cliente é frequentemente construída com HTML, CSS e JavaScript,
+        onde:
+    </p>
+    <p>
+    <ul>
+        <li>
+            HTML (Hypertext Markup Language) é a linguagem de marcação padrão para criar páginas da web.
+        </li>
+        <br>
+        <li>
+            CSS (Cascading Style Sheets) é utilizada para estilizar a apresentação de documentos HTML.
+        </li>
+        <br>
+        <li>
+            JavaScript é uma linguagem de programação usada para criar interatividade e dinamismo nas páginas da web.
+        </li>
+    </ul>
+    </p>
+    <p>
+        Navegadores populares, como Google Chrome, Mozilla Firefox, Safari e Microsoft Edge, são os principais meios de
+        interação do usuário com a interface do cliente.
+    </p>
+    <p>
+        O design responsivo é uma abordagem de design que visa fornecer uma experiência de usuário ideal em uma
+        variedade de dispositivos e tamanhos de tela. Em vez de criar diferentes versões de um site para cada
+        dispositivo, o design responsivo utiliza técnicas de HTML, CSS e, às vezes, JavaScript para ajustar
+        dinamicamente o layout e o conteúdo com base no tamanho da tela do dispositivo em que o site está sendo exibido.
+        Isso permite que o site se adapte de forma flexível a diferentes dispositivos, como smartphones, tablets e
+        computadores desktop, proporcionando uma experiência consistente e amigável ao usuário, independentemente do
+        dispositivo que está sendo usado.
+    </p>
+
+    <h3 id="navegadores">Navegadores</h3>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+    <p>
+        Os navegadores são programas desenvolvidos por empresas e utilizados para abrir e executar arquivos na web. Eles
+        seguem os padrões estabelecidos pelo W3C (World Wide Web Consortium), mas frequentemente há diferenças de
+        interpretação entre eles. Também conhecidos como "browsers", sua história remonta ao MOSAIC e evoluiu para o
+        Netscape, dando origem a uma ampla variedade de navegadores disponíveis hoje em dia. A maioria desses
+        navegadores está disponível gratuitamente.
+    </p>
+
+    <h3 id="aplicacoes">Aplicações Web</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        As aplicações web são soluções desenvolvidas com a internet como meio de comunicação entre o cliente e o
+        servidor, dispensando a necessidade de instalação. São acessadas através de navegadores da web e utilizam a
+        infraestrutura online para fornecer funcionalidades aos usuários. Um exemplo clássico é o <a
+            href="https://www.youtube.com/">YouTube</a>, que é acessado pelo navegador sem a necessidade de instalar um
+        aplicativo separado.
+    </p>
+
+    <h3 id="dispositivos">Dispositivos móveis</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        De acordo com um estudo recente conduzido pela Comscore em parceria com a IMS, ficou evidente o crescente uso de
+        dispositivos móveis na América Latina. Surpreendentemente, 9 em cada 10 latino-americanos possuem ou fazem uso
+        regular de um dispositivo móvel, demonstrando a ubiquidade desses aparelhos na região. Além disso, quase a
+        totalidade desses usuários (99%) já realizaram o download de aplicativos em seus dispositivos, destacando a
+        importância dessas ferramentas em suas vidas cotidianas.
+    </p>
+    <p>
+        Os números revelam ainda mais insights sobre o comportamento dos usuários de smartphones na América Latina. Em
+        média, cada usuário baixou 18 aplicativos em seus dispositivos, refletindo a diversidade de serviços e
+        funcionalidades disponíveis no mercado de aplicativos móveis. Além disso, uma parcela significativa dos usuários
+        móveis na região (22%) dedica 20 horas ou mais por semana à internet através de seus smartphones, evidenciando a
+        crescente dependência desses dispositivos para acesso à rede.
+    </p>
+    <p>
+        Não apenas os aplicativos em geral, mas também aplicativos específicos como Twitter, LinkedIn, Spotify e Waze,
+        são considerados extremamente importantes para mais de 60% dos usuários móveis na América Latina em sua vida
+        diária. Esses aplicativos desempenham papéis distintos, desde a comunicação e networking até o entretenimento e
+        navegação, demonstrando sua relevância diversificada para os usuários.
+    </p>
+    <p>
+        Esses dados destacam não apenas a penetração massiva de dispositivos móveis na América Latina, mas também a
+        crescente importância dos aplicativos móveis em diversas áreas da vida cotidiana dos usuários na região.
+    </p>
+    <p>
+        Referência: Comscore em parceria com IMS - "Pesquisa Comportamento do Usuário em Relação aos Principais
+        Aplicativos Móveis na América Latina"
+        <br><br>
+        Trabalhar com internet não é o futuro... já estamos vivendo ele!
+    </p>
+
+    <h2 id="server">Servers</h2>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>O conceito de servidor é central na computação e nas redes, referindo-se a um sistema de computador ou software
+        que oferece serviços, recursos ou dados para outros dispositivos, chamados clientes, por meio de uma rede. No
+        contexto da web, o servidor desempenha um papel fundamental na entrega de conteúdo e na execução de lógica de
+        negócios para aplicações online. Um dos elementos-chave do servidor é o banco de dados, que serve como um
+        repositório organizado e eficiente para armazenar e gerenciar dados.
+    </p>
+    <p>
+        Os bancos de dados são essenciais no lado do servidor, permitindo que as aplicações web armazenem e recuperem
+        informações de maneira confiável e eficiente. Eles oferecem recursos avançados para organizar os dados e
+        permitir consultas complexas e transações seguras. Bancos de dados relacionais são comumente usados em
+        aplicações web devido à sua capacidade de garantir a integridade dos dados e suportar operações de leitura e
+        escrita de alto desempenho.
+    </p>
+    <p>
+        Resumindo, o servidor desempenha um papel crítico na arquitetura de sistemas web, fornecendo serviços e recursos
+        para os clientes através da rede. O banco de dados é um componente essencial do servidor, permitindo que as
+        aplicações armazenem e gerenciem dados de forma eficiente para suportar a funcionalidade das aplicações web.
+    </p>
+
+    <h3 id="hardware-software">Hardware e Software em servidores</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>Em servidores, tanto o hardware quanto o software desempenham papéis fundamentais na entrega de conteúdo e
+        serviços pela web. O hardware refere-se aos componentes físicos do servidor, como processadores, memória,
+        armazenamento e rede, que trabalham juntos para processar e armazenar dados. Por exemplo, um servidor pode ser
+        equipado com processadores de alta capacidade, uma grande quantidade de memória RAM e discos rígidos de alta
+        velocidade para garantir um desempenho rápido e confiável.
+    </p>
+    <p>
+        Já o software inclui o sistema operacional do servidor, bem como aplicativos e serviços específicos necessários
+        para executar diversas funções, como o servidor web e o servidor de banco de dados. Exemplos de sistemas
+        operacionais para servidores incluem Linux, Windows Server e FreeBSD. O servidor web, como o Apache HTTP Server
+        ou Nginx, é responsável por atender às solicitações dos clientes e enviar conteúdo, como HTML, CSS, JavaScript e
+        imagens, de volta para os navegadores dos usuários.
+    </p>
+    <p>
+        Quando um navegador faz uma requisição HTTP para um servidor, o servidor recebe a solicitação e processa-a,
+        utilizando o software para identificar o recurso solicitado. Se a requisição for para uma página da web, por
+        exemplo, o servidor poderá acessar um banco de dados para recuperar dados dinâmicos, como o conteúdo de um
+        artigo de notícia. Em seguida, o servidor compilará esses dados em um documento HTML, que pode incluir
+        referências a arquivos de estilo CSS para a formatação, scripts JavaScript para interatividade e imagens para
+        elementos visuais. Esses recursos são então enviados de volta ao navegador do cliente como uma resposta HTTP,
+        permitindo que o navegador exiba a página da web completa para o usuário. Em suma, tanto o hardware quanto o
+        software desempenham papéis essenciais na operação dos servidores, permitindo que eles processem e entreguem
+        conteúdo e serviços pela web de maneira eficiente e confiável.
+    </p>
+
+    <h3 id="tipos-servers">Tipos de Servers</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>Existem diversos tipos de servidores, cada um projetado para desempenhar funções específicas na infraestrutura de
+        rede de uma organização.
+    <ol>
+        <li>
+            <strong>Proxy Server:</strong> O proxy server atua como intermediário entre os clientes e os servidores
+            externos. Ele pode armazenar em cache conteúdo comum, acelerando o acesso à internet para os usuários e
+            ajudando a proteger a rede interna.
+        </li>
+        <li>
+            <strong>Firewall:</strong> A firewall é uma barreira de segurança entre a rede interna e a internet,
+            monitorando e controlando o tráfego de entrada e saída. Ela ajuda a proteger os sistemas internos contra
+            ameaças externas, como ataques de hackers e malware.
+        </li>
+        <li>
+            <strong>Web Server</strong> O web server é responsável por hospedar e fornecer páginas da web aos clientes
+            através do
+            protocolo HTTP. Ele processa solicitações dos navegadores dos usuários e envia as páginas da web
+            correspondentes,
+            muitas vezes utilizando tecnologias como Apache, Nginx ou Microsoft IIS.
+        </li>
+        <li>
+            <strong>Email Server:</strong> O email server gerencia o envio, recebimento e armazenamento de emails. Ele
+            utiliza protocolos como SMTP (Simple Mail Transfer Protocol) para enviar emails e POP3 (Post Office
+            Protocol) ou IMAP (Internet Message Access Protocol) para receber emails.
+        </li>
+        <li>
+            <strong>Database Server:</strong> O database server é responsável por armazenar, gerenciar e fornecer acesso
+            a dados de forma eficiente. Ele suporta bancos de dados relacionais ou não relacionais e permite que
+            aplicativos e usuários executem
+            consultas para recuperar ou modificar dados.
+        </li>
+        <li>
+            <strong>Database Server para Intranet:</strong>Similar ao database server, este tipo de servidor é utilizado
+            para armazenar e gerenciar dados em uma rede interna de uma organização. Ele fornece acesso controlado aos
+            dados para os usuários da rede local.
+        </li>
+        <li>
+            <strong>DNS (Domain Name System) Server:</strong> O servidor DNS traduz nomes de domínio legíveis por
+            humanos, como
+            www.exemplo.com, em endereços IP, que são utilizados pelos computadores para localizar recursos na internet.
+            Ele
+            desempenha um papel fundamental na resolução de nomes de domínio para endereços IP correspondentes.
+        </li>
+    </ol>
+
+    Cada tipo de servidor desempenha um papel único e essencial na infraestrutura de rede de uma organização, fornecendo
+    serviços essenciais para operação eficiente e segura.
+    </p>
+
+    <h3 id="hospedagem">Hospedagem de Sites</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        A hospedagem de site é um serviço que permite que indivíduos e empresas tornem seus sites acessíveis na
+        internet. Esse serviço é fornecido por empresas conhecidas como provedores de hospedagem de sites, que
+        disponibilizam servidores e infraestrutura necessária para armazenar e servir os arquivos de um site para os
+        usuários da internet.
+    </p>
+    <p>
+        Existem diferentes tipos de hospedagem de sites, incluindo hospedagem compartilhada, VPS (Virtual Private
+        Server), hospedagem em nuvem e hospedagem dedicada. Na hospedagem compartilhada, vários sites compartilham os
+        recursos de um servidor único, o que é uma opção econômica, mas pode ter limitações em termos de desempenho e
+        recursos. Já a hospedagem VPS oferece recursos dedicados em um ambiente virtualizado, proporcionando mais
+        flexibilidade e controle sobre o ambiente de hospedagem. Na hospedagem em nuvem, os recursos são distribuídos em
+        uma rede de servidores interconectados, proporcionando escalabilidade e alta disponibilidade. Por fim, na
+        hospedagem dedicada, um servidor inteiro é dedicado exclusivamente a um único site ou cliente, oferecendo o
+        máximo de desempenho e controle sobre o ambiente de hospedagem.
+    </p>
+    <p>
+        Os provedores de hospedagem de sites geralmente oferecem uma variedade de recursos e serviços, como espaço em
+        disco, largura de banda, contas de e-mail, suporte técnico e ferramentas de gerenciamento de sites, como painéis
+        de controle. Eles também podem oferecer serviços adicionais, como registro de domínio, certificados SSL e
+        backups automáticos.
+    </p>
+    <p>
+        Em resumo, a hospedagem de site é essencial para tornar um site acessível na internet, proporcionando os
+        recursos e a infraestrutura necessária para armazenar, gerenciar e servir os arquivos do site para os usuários
+        da internet. A escolha do tipo de hospedagem adequado depende das necessidades específicas de cada site,
+        incluindo o tráfego esperado, os recursos necessários e o orçamento disponível.
+    </p>
+
+    <h2 id="linguagem">Linguagem de programação</h2>
+    <small><a href="#inicio"><sub>Voltar ao início</sub></a></small>
+    <p>
+        As linguagens de programação são fundamentais na criação de programas de computador, definindo conjuntos de
+        instruções e regras que orientam o desenvolvimento de software. De acordo com o ranking do RedMonk, uma empresa
+        de análise de mercado, as cinco linguagens de programação mais populares no momento são:
+    <ol>
+        <li>
+            JavaScript
+        </li>
+        <li>
+            Python
+        </li>
+        <li>
+            Java
+        </li>
+        <li>
+            PHP
+        </li>
+        <li>
+            C#
+        </li>
+    </ol>
+    </p>
+    <p>
+        Essas linguagens são amplamente utilizadas em uma variedade de contextos, desde o desenvolvimento web até a
+        criação de aplicativos desktop e móveis. Cada uma delas possui suas próprias características e áreas de
+        aplicação, tornando-as escolhas populares entre desenvolvedores em todo o mundo.
+    </p>
+
+    <h3 id="server-side">Linguagem Server-side</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        As linguagens server-side desempenham um papel crucial na construção de aplicativos web, fornecendo a lógica e o
+        processamento necessários para gerar conteúdo dinâmico e responder às solicitações dos clientes. Entre as
+        linguagens mais utilizadas nesse contexto estão o <mark>PHP, Ruby, C#, JavaScript e Java</mark>.
+    </p>
+    <p>
+    <ul>
+        <li>
+            O <mark>PHP</mark> é uma linguagem de script amplamente utilizada para desenvolvimento web, especialmente em
+            ambientes de
+            código aberto. Com sua sintaxe simples e suporte a uma ampla variedade de frameworks, o PHP é uma escolha
+            popular para a criação de sites dinâmicos e aplicativos web.
+        </li>
+        <li>
+            <mark>Ruby</mark>, conhecida pelo framework Ruby on Rails, é outra linguagem server-side poderosa e popular.
+            Sua sintaxe
+            limpa e a filosofia de convenção sobre configuração facilitam o desenvolvimento rápido de aplicativos web
+            escaláveis e de alta qualidade.
+        </li>
+        <li>
+            <mark>C#</mark> é uma linguagem da família .NET, desenvolvida pela Microsoft, comumente usada para criar
+            aplicativos web
+            robustos e escaláveis. Com sua forte tipagem estática e integração com outras tecnologias Microsoft, como o
+            ASP.NET, o C# oferece uma plataforma sólida para o desenvolvimento de soluções corporativas.
+        </li>
+        <li>
+            <mark>JavaScript</mark>, embora mais conhecida como uma linguagem de programação front-end para navegadores
+            da web,
+            também é amplamente utilizada no lado do servidor, especialmente com o Node.js. Com o Node.js, os
+            desenvolvedores podem usar JavaScript tanto no cliente quanto no servidor, permitindo uma experiência de
+            desenvolvimento mais consistente e eficiente.
+        </li>
+        <li>
+            Por fim, <mark>Java</mark> é uma linguagem de programação versátil e robusta, amplamente utilizada em
+            aplicativos
+            empresariais e corporativos. Com sua portabilidade e forte suporte à orientação a objetos, o Java é uma
+            escolha popular para o desenvolvimento de aplicativos web escaláveis e de missão crítica.
+        </li>
+    </ul>
+
+    Em resumo, as linguagens server-side, como PHP, Ruby, C#, JavaScript e Java, desempenham papéis distintos, mas
+    essenciais, na construção de aplicativos web modernos e eficientes, cada uma com suas próprias características e
+    vantagens.
+    </p>
+
+    <h3 id="client-side">Linguagem Client-Side</h3>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        As linguagens client-side são aquelas que são executadas no navegador da web do usuário, proporcionando
+        interatividade e dinamismo às páginas da web. As principais linguagens client-side incluem <mark>HTML (Hypertext
+            Markup Language), CSS (Cascading Style Sheets) e JavaScript</mark>.
+    </p>
+    <p>
+        <mark>HTML</mark> é a linguagem de marcação padrão para criar a estrutura básica de uma página da web, definindo
+        elementos
+        como cabeçalhos, parágrafos, listas e links. <mark>CSS</mark> é usada para estilizar e formatar o conteúdo HTML,
+        permitindo a
+        criação de layouts atrativos e responsivos, e a aplicação de estilos visuais, como cores, fontes e espaçamento.
+    </p>
+    <p>
+        <mark>JavaScript</mark> é uma linguagem de programação client-side que permite adicionar interatividade e
+        funcionalidade
+        dinâmica às páginas da web. Com JavaScript, os desenvolvedores podem criar animações, validar formulários,
+        manipular o DOM (Document Object Model) e responder a eventos de usuário, como cliques e rolagens.
+    </p>
+    <p>
+        Juntas, essas linguagens client-side formam a base para a criação de experiências de usuário ricas e interativas
+        na web, proporcionando aos desenvolvedores as ferramentas necessárias para criar sites e aplicativos web
+        envolventes e funcionais.
+    </p>
+
+    <h2 id="html">HTML é uma linguagem de programação ou não?</h2>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    <p>
+        HTML <i>(Hypertext Markup Language)</i> <strong><u>não</u></strong> é considerada uma linguagem de programação
+        no sentido tradicional, mas sim uma linguagem de marcação. Enquanto as linguagens de programação como
+        JavaScript, Python ou Java são usadas para criar algoritmos e instruções que permitem a execução de tarefas
+        complexas, o HTML é usado para estruturar e
+        organizar o conteúdo de uma página da web.
+    </p>
+    <p>
+        HTML é uma linguagem de marcação que define a estrutura e o conteúdo de uma página da web, utilizando tags para
+        identificar e formatar diferentes elementos, como texto, imagens, links e formulários. No entanto, HTML não
+        possui capacidades de programação, como variáveis, loops ou condicionais, e não pode manipular dados ou realizar
+        cálculos.
+    </p>
+    <p>
+        Em vez disso, o HTML é interpretado pelos navegadores da web para renderizar o conteúdo de uma página da web de
+        forma visualmente atraente e navegável para os usuários. Ele fornece a base sobre a qual outras tecnologias,
+        como CSS <i>(Cascading Style Sheets)</i> e JavaScript, podem ser usadas para estilizar e adicionar
+        interatividade às
+        páginas da web.
+    </p>
+    <p>
+        Portanto, embora o HTML desempenhe um papel fundamental na criação de páginas da web, não é considerado uma
+        linguagem de programação porque não possui a capacidade de executar algoritmos ou processar dados de forma
+        dinâmica. Em vez disso, é uma linguagem de marcação usada para estruturar e organizar o conteúdo da web.
+    </p>
+
+    <p>
+    <blockquote>E com isso finalizo meu resumo das primeiras aulas do curso Formação HTML Web Developer!</blockquote>
+    </p>
+
+    <h2 id="videos-artigos">Vídeos e Artigo</h2>
+    <small><a href="#inicio">Voltar ao início</a></small>
+
+    <p>
+        Separei esses vídeos e arquivos que eu acho que podem ajudar nesta jornada de começar a codificar, espero que
+        seja útil!
+
+
+    <ul>
+        <li>
+            <a
+                href="https://www.hostinger.com.br/tutoriais/site-html?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=1001588&gad_source=1&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fgkGwrmioRy5w1V5N0T3Sr5GgO3e2hY56g-A7etF0sW4pbeWYpJDeMaAkItEALw_wcB">Hostinger</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=3oSIqIqzN3M">5 minutos de HTML para iniciar em programação -
+                Rafaella Ballerini</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=w7sIMxxVELs">Curso HTML e CSS para iniciantes - Hashtag
+                Programação</a>
+        </li>
+        <li>E, é claro o curso que inspirou esse site: <a
+                href="https://web.dio.me/track/facf3f2a-4c2d-4250-be5b-93bb4d12995e">Formação HTML Web Developer</a>,
+            que é um curso apenas para quem paga o Dio Pro, mas no próprio site da <a
+                href="https://www.dio.me/en">Dio</a> existem muitos cursos gratuítos que podem ajudar na trilha de
+            programação.</li>
+    </ul>
+    </p>
+</body>
+<hr>
+<footer>Desenvolvido por Hellen Silva Gonçalves</footer>
+
+</html>
